@@ -1,0 +1,10 @@
+#h{
+  text-align: center;
+}
+footer{
+  display: block;
+}
+ul li{
+  /*text-decoration: none;*/
+  text-decoration: line-through;
+}
