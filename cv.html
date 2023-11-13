@@ -1,31 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae</title>
-</head>
-<body>
-    <div>
-        <header>
-            <h1>Curriculum Vitae</h1>
-            <nav id="navbar" class="nav">
-                <ul class="nav-list">
-                  <li>
-                    <a href="#welcome-section">About</a>
-                  </li>
-                  <li>
-                    <a href="#projects">Work</a>
-                  </li>
-                  <li>
-                    <a href="#contact">Contact</a>
-                  </li>
-                  <li><a href="cv.html">Curriculum Vitae</a></li>
-                </ul>
-              </nav>
-              
-        </header>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device- width, initial-scale =1">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/my_cv.css">
+    <title>my Resume</title>
+  </head>
+  <body>
+    <!-- main Div-->
+    <div class="container">
+      <!--Second Div--->
+      <div class="page-header text-center">
+        <h1 id="h">CURRICULUM VITAE</h1>
+      </div>
+      <!--The Bio Div--->
+      <div class="jumbotron">
+        <div class="table-hover">
+          <h1>BIO</h1>
+          <table class="table">
+            <tr>
+              <th><img src="" class="img-rounded im-responsive" alt="passport photo of Francis Murungi"></th>
+            </tr>
+            <tr>
+              <th>Name : </th>
+              <td>Francis Murungi</td>
+            </tr>
+            <tr>
+              <th>Sex : </th>
+              <td>Male</td>
+            </tr>
+            <tr>
+              <th>Maritual:</th>
+              <td>Single</td>
+            </tr>
+            <tr>
+              <th>Date of Birth : </th>
+              <td>199..</td>
+            </tr>
+            <tr>
+              <th>Nationality : </th>
+              <td>Ugandan</td>
+            </tr>
+            <tr>
+              <th>Phone : </th>
+              <td>+256784688102</td>
+              <td>+256755676978</td>
+            </tr>
+            <tr>
+              <th>Email : </th>
+              <td>francisngaangamurungi@gmail.com</td>
+              <td>francis_951@live.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!--Education Div--->
+      <div class="table-striped ">
+        <h1>Academic Background</h1>
+        <table class="table">
+          <tr>
+            <th>Year</th>
+            <th>Award</th>
+          </tr>
+          <tr>
+            <td>2007</td>
+            <td><abbr title="Primary Leaving Examination">PLE</abbr>(Haibaale <abbr title="Primary school">P/s</abbr>)</td>
+          </tr>
+           <td>2011</td>
+           <td><abbr title="Uganda Certificate of Education">UCE</abbr> (Mpanga <abbr title="Senior Secondary School">s.s.s</abbr>)
+          </td>
+          <tr>
+            <td>2020</td>
+            <td><abbr title="National Certificate Computer Engineering">NCCE</abbr>(<abbr title="Management Training and Advisory Centre">MTAC</abbr>)</td>
+          </tr>
+          <tr>
+            <td>2020</td>
+            <td>Certificate Web development(Coursera)</td>
+          </tr>
+        </table>
+      </div>
+      <!--The work Div--->
+      <div class="jumbotron">
+        <h1>Work Experiences</h1>
+        <!----->
+        <h1>Duties Assigned</h1>
+      </div>
+      <!--The Skills Div--->
+      <div class="">
+        <h1>Skills and Competence</h1>
+        <p>Static and Dynamic Web development(php, javascript, css, html, Jquery, Bootstrap)</p>
+        <p>Computer Skills(Computerapplications e.g ms-office)</p>
+        <p>communication Skills <span class="glyphicon glyphicon-envelope"></span></p>
+        <p>Teamwork and team building</p>
+        <p>cirtuit(Mobile phones, Computers, and some eletronics, or electric gadgets) testing,repair and maintenance</p>
+        <p>Adaptive</p>
+      </div>
+      <!--the language Div--->
+      <div class="jumbotron">
+        <h2>Languages</h2>
+        <ul class="item-group">
+          <li>English</li>
+          <li>Swahili</li>
+          <li>Rutooro</li>
+          <li>Luganda</li>
+        </ul>
+      </div>
+      <!--The referees Div-->
+      <div class="">
+        <h2>Referees</h2>
+      </div>
+      <!--Footer-->
+      <footer>
+        <p>&copy; of </p>
+        <p id="yar"></p>
+      </footer>
     </div>
-</body>
+    <script type="text/javascript">
+      var d = new Date();
+      document.getElementById('yar').innerHTML = d.getFullYear();
+    </script>
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.js" charset="utf-8"></script>
+  </body>
 </html>
